@@ -18,7 +18,7 @@ let state;
 // bigint
 // string => ""
 // boolean => true/false
-// null => standalone value
+// null => standalone value it gives type-object and value-0
 // undefined => 
 // symbol => unique
 
