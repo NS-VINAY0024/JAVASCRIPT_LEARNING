@@ -1,12 +1,12 @@
 "use strict"; // treat all JS code as newer version
 
-// alert( 3 + 3) // we are using nodejs, not browser
+// alert( 3 + 3) // we are using nodejs, not browser because javascript is fully available in side the browser
 
 console.log(3 
     +
      3) // code readability should be high
 
-console.log("Hitesh")
+console.log("Vinay")
 
 
 let name = "hitesh"
