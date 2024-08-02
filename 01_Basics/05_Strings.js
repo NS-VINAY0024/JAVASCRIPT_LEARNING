@@ -1,15 +1,14 @@
-const name = "hitesh"
+const name = "NS VINAY"
 const repoCount = 50
 
-// console.log(name + repoCount + " Value");
+// console.log(name + repoCount + " Value"); out dated usage 
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('hitesh-hc-com')
-
+//------------------Methods in String-------------------------
 // console.log(gameName[0]);
-// console.log(gameName.__proto__);
-
+// console.log(gameName.__proto__); --> We can use methods directly without using prototype()
 
 // console.log(gameName.length);
 // console.log(gameName.toUpperCase());
@@ -22,7 +21,7 @@ console.log(newString);
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
 
-const newStringOne = "   hitesh    "
+const newStringOne = "   N S VINAY   "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
@@ -32,4 +31,4 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+console.log(newStringOne.split(' '));
