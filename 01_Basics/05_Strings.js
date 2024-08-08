@@ -3,10 +3,10 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value"); out dated usage 
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`); // this is a presize use of using multi variable in one console 
 
-const gameName = new String('hitesh-hc-com')
-//------------------Methods in String-------------------------
+const gameName = new String('vinay-ns-com')
+//------------------Methods in String (functions)-------------------------
 // console.log(gameName[0]);
 // console.log(gameName.__proto__); --> We can use methods directly without using prototype()
 
@@ -25,10 +25,10 @@ const newStringOne = "   N S VINAY   "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
-const url = "https://hitesh.com/hitesh%20choudhary"
+const url = "https://vinay.com/nsvinay%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
-console.log(url.includes('sundar'))
+console.log(url.includes('vinay'))
 
 console.log(newStringOne.split(' '));
