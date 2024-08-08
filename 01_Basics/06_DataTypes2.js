@@ -9,7 +9,7 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-const id = Symbol('123') // Symbols will keep the variables unique from others. If the two variables have same value as shown below, but the symbol datatype will keep both as unique value
+const id = Symbol('123') // Symbols will keep the variables unique from others. If the two variables have same value as shown below, but the symbol datatype will keep both as unique value"Paranthisus"
 const anotherId = Symbol('123')
 //console.log(id === anotherId);
 
@@ -20,7 +20,7 @@ const anotherId = Symbol('123')
 // 1. Arrays--> anything b/w square brackets'[]' are arrays
 const heros = ["shaktiman", "naagraj", "doga"];
 
-// 2. Object--> anything b/w curly brackets'{}' are Objects and it can be stored inside a varaiable as a data.
+// 2. Object--> anything b/w curly braces'{}' are Objects and it can be stored inside a varaiable as a data.
 let myObj = {
     name: "hitesh",
     age: 22,
