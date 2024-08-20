@@ -59,6 +59,28 @@ const User = [
 // To access Data from Array of Object
 // console.log(User[1]["Id"]);
 
-console.log(Object.keys(Student));
-console.log(Object.values(Student));
-console.log(Object.entries(Student));   //  The entries() method converts an object into an array of key-value pairs, represented as strings ==> [[Key,Value],[Key,Value],....]
+// console.log(Object.keys(Student));
+// console.log(Object.values(Student));
+// console.log(Object.entries(Student));   //  The entries() method converts an object into an array of key-value pairs, represented as strings ==> [[Key,Value],[Key,Value],....]
+
+
+//++++++++++++++++++++++   Destructuring   ++++++++++++++++++++++
+// It is a way to unpack arrays, and objects and assigning to a distinct variable. Destructuring allows us to write clean and readable code. Example ==>
+const Student2 ={
+    name:"N S VINAY",
+    age : 21,
+    college : "BIT",
+    Dept : "EIE",
+    Sem : "6th Sem",
+  
+} 
+
+const {name,age,college:col,Dept,Sem} = Student2
+console.log(name,Sem,Dept,col);
+
+//++++++++++++++++   JSON AIP     ++++++++++++++++
+
+
+
+
+
