@@ -1,15 +1,15 @@
 //+++++++++++++++++++++++++++   Functions   +++++++++++++++++++++++++++++
 //  Definition
 function My_Name(){
-    console.log("N");
-    console.log(" ");
-    console.log("S");
-    console.log(" ");
-    console.log("V");
-    console.log("I");
-    console.log("N");
-    console.log("A");
-    console.log("Y");
+    console.log("N")
+    console.log(" ")
+    console.log("S")
+    console.log(" ")
+    console.log("V")
+    console.log("I")
+    console.log("N")
+    console.log("A")
+    console.log("Y")
 }
 // My_Name()   //  Execution
 // My_Name    //  reference
