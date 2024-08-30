@@ -44,6 +44,4 @@ const test_this2 = ()=>{ // this is an arrow funtion
 const addtwoNum=(num1,num2) => ({name:"Ns vinay"})  // this is how to return object implicitly
 console.log(addtwoNum(4,5));
 
-
-
 //
