@@ -7,7 +7,7 @@ Student.best_friends = {
     2:"Darshan",
     3:"Rohith"
 }
-// console.log(Student.best_friend
+// console.log(Student.best_friend)
 
 
 // +++++++++  Nested Object   +++++++++++
