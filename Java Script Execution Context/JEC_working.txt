@@ -1,0 +1,38 @@
+-we will learn how JavaScript code executes, including the memory creation and execution phases, and demonstrate the call stack using a practical example in the browser console.
+
+1...JavaScript execution context is crucial for coding. It has two types of contexts
+    1. Global execution context  
+    2. function execution context play vital roles in running scripts effectively.
+          -Differentiating between global and function execution contexts is essential for efficient script execution.
+
+          -Exploring how code runs within single threads and the significance of global and function contexts.
+
+
+
+2...Code is executed in two phases, one is Memory creation phase and second execution phase are key concepts in coding.
+          
+          -Difference between memory creation face and execution face in coding. Memory creation face stores variables, while execution face runs the code, impacting program execution.
+
+          -Understanding the process of variable declaration and code execution. Variables are stored in memory creation face, and code is executed in the execution face, influencing program behavior.
+
+
+
+3...The process of memory creation and execution phases in programming, emphasizing the importance of defining variables and executing functions accurately.
+          -Step1: Globle execution/environment and and allocated inside the 'this' 
+          -Explaining the concept of memory creation and execution phases in programming.
+          -Emphasizing the significance of accurately defining variables and executing functions.
+          -Highlighting the importance of proper calculation and value assignment within the total variable.
+
+
+
+4...the concept of execution context and value changes in a global execution context is crucial for programming. It involves executing functions, managing memory, and handling nested functions effectively.
+          -Importance of execution context and value changes in programming. It involves handling functions and memory effectively for proper execution.
+          -Exploring the concept of nested functions and their impact on the global execution context. Managing functions and values for efficient programming.
+          -Practical demonstration of executing functions and understanding value changes in a global context. Emphasizing the importance of proper execution and memory management in programming.
+
+
+
+5...concept of 'Last In First Out' (LIFO) and 'First In First Out' (FIFO) in programming is crucial for executing code efficiently. The video demonstrates how to create and run functions using breakpoints in Google Chrome's inspector element.
+          -Explaining the concept of breakpoints and their significance in debugging code efficiently. Demonstrating how to inspect elements and manipulate values within the source code.
+          -Illustrating the process of creating and running functions in the Google Chrome browser for effective code execution. Emphasizing the importance of understanding the order of execution in programming.
+          -Highlighting the significance of utilizing breakpoints to analyze and debug code effectively. Showcasing the practical application of running and testing code segments using breakpoints for efficient programming practices.
