@@ -24,6 +24,12 @@ const myObject1 = {
 // }// By using for_of loop we can not iterate the objects 
 
 
+
+
+//  ++++++ for-in loop ++++++++
+//  for (variable in object)
+//   statement
+
 const myObject2 = {
     js: 'javascript',
     cpp: 'C++',
