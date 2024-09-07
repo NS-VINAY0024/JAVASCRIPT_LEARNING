@@ -23,10 +23,8 @@
 				"wayou.vscode-todo-highlight",
 				"ritwickdey.LiveServer"
 			],
-			"settings": {
-				"editor.fontSize": 28,
-				"terminal.integrated.fontSize": 28,
-				"editor.wordWrap": "on"
+			"settings": {	
+			"editor.wordWrap": "on"
 			}
 		}
 		
