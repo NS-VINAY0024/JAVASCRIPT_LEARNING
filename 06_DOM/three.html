@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const div = document.createElement('div') //    This line creates a new <div> element and assigns it to the variable div
+    
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    
+    div.innerText = "Chai aur code"
+    //  This line directly sets the inner text of the <div> to "Chai aur code". It replaces any existing content within the <div>.
+
+    const addText = document.createTextNode("Chai aur code")
+    div.appendChild(addText)
+    //  After this line executes, the <div> will contain the text "Chai aur code" again, in addition to the text already set in above line. Therefore, the final content of the <div> will be "Chai aur codeChai aur code" (the text appears twice).
+
+    document.body.appendChild(div)  //  this line appends the <div> (with its content and attributes) to the body of the HTML document, making it visible on the webpage.
+</script>
+</html>
