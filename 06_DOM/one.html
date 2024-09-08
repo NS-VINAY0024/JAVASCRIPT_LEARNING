@@ -1,0 +1,129 @@
+<!--DOM ==>  Document Object Model-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>  
+
+<!-- Note for DOM
+ Explanation of the JavaScript code snippets, which involve manipulating the DOM (Document Object Model) in a web page:
+
+1. **Selecting an Element**:
+   ```
+   const title = document.getElementById('title')
+   ```
+   -> This line selects the HTML element with the ID `title` and assigns it to the variable `title`. The element is an `<h1>` tag.
+
+2. **Inspecting the Element**:
+   -> The console shows the structure of the selected element, which is an `<h1>` with the class `test Heading`.
+
+3. **Changing Styles**:
+   ```
+   title.style.background = 'lightGreen'
+   ```
+   -> This changes the background color of the `title` element to light green.
+   ```
+   title.style.background = 'green'
+   ```
+   -> This updates the background color to green.
+   ```
+   title.style.padding = '15px'
+   ```
+   -> This adds padding of 15 pixels around the text in the `title` element.
+   ```
+   title.style.borderRadius = '15px'
+   ```
+   -> This rounds the corners of the element with a radius of 15 pixels.
+
+4. **Text Content and Inner HTML**:
+   ```
+   title.textContent
+   ```
+   -> Retrieves the text content of the `title` element.
+   ```
+   title.innerText
+   ```
+   -> Similar to `textContent`, but respects CSS styles (e.g., hidden elements).
+   ```
+   title.innerHTML
+   ```
+   -> Retrieves the HTML content, including any nested HTML tags.
+
+5. **Querying Other Elements**:
+   -> Various `document.querySelector` calls are used to select different elements:
+     -> `document.querySelector('h1')`: Selects the first `<h1>` element.
+     -> `document.querySelector('h2')`: Selects the first `<h2>` element.
+     -> `document.querySelector('.heading')`: Selects the first element with the class `heading`.
+     -> `document.querySelector('input[type="password"]')`: Selects the first password input field.
+
+6. **Selecting a List**:
+   ```
+   const myul = document.querySelector('ul')
+   ```
+   -> Selects the first `<ul>` (unordered list) element.
+   ```
+   myul.querySelector('li')
+   ```
+   -> Selects the first `<li>` (list item) within the selected `<ul>`.
+
+7. **Getting Element Attributes**:
+   ```
+   document.getElementById('title').id
+   ```
+   -> Retrieves the ID of the `title` element, which is `title`.
+   ```
+   document.getElementById('title').class
+   ```
+   -> This returns `undefined` because `class` is not a valid property; it should be `className`.
+   ```
+   document.getElementById('title').className
+   ```
+   -> Retrieves the class name of the `title` element, which is `heading`.
+
+9. **Getting Attributes**:
+   ```
+   document.getElementById('title').getAttribute('class')
+   ```
+   -> Correctly retrieves the class attribute value, which is `heading`.
+
+10. **Setting Attributes**:
+   -> The following line has a syntax error:
+   ```
+   document.getElementById('title').setAttribute('class'='test Heading')
+   ```
+   -> The correct syntax should be:
+   ```
+   document.getElementById('title').setAttribute('class', 'test Heading')
+   ```
+   -> This sets the class attribute of the `title` element to `test Heading`.
+
+### Summary
+The demonstrate how to select and manipulate HTML elements using JavaScript. They cover changing styles, retrieving text and HTML content, querying elements, and handling attributes.
+-->
