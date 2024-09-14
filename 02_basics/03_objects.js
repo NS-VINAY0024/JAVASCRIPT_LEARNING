@@ -1,7 +1,7 @@
 // Singleton method --> Singleton will be created only when we use constructor method in creating Object
-// Example --> oject.create
+// Example --> object.create
 
-//==============================>   Oject based on Literals     <================================//
+//===================>   Oject based on Literals     <=================//
 let USN = Symbol()
 let phone_no = Symbol()
 const Student ={
