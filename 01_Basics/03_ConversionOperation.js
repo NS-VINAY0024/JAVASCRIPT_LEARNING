@@ -15,7 +15,7 @@ let valueInNumber = Number(score) // 2
 //------------------------------------------------------------------------------------------
 
 
-let isLoggedIn = "hitesh"
+let isLoggedIn = "n s vinay"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 //console.log(booleanIsLoggedIn);
